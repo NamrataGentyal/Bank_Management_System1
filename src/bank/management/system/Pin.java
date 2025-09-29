@@ -110,6 +110,11 @@ public class Pin extends JFrame implements ActionListener {
                 setVisible(false);
                 new Login();
             }
+            else if(e.getSource()==b2)
+            {
+                setVisible(false);
+                new main_Class(pin);
+            }
         }catch (Exception E)
         {
             E.printStackTrace();
